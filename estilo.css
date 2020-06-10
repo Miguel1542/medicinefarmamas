@@ -1,0 +1,305 @@
+
+  figure:before {
+    z-index: 3;
+    mix-blend-mode: normal;
+    box-shadow: 0 0 250px brown inset;
+    background: rgba(0, 0, 0, 0.0);
+  }
+   
+  figure:after {
+    z-index: 3;
+    mix-blend-mode: hard-light;
+    box-shadow: 0 0 150px pink inset;
+    background: rgba(198, 155, 0, 0.3);
+  }
+  /*
+  .boton_1{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-inline-start: 30px;
+    padding-inline-start: 15px;
+    position: relative;
+    font-family: helvetica;
+    font-weight: 250;
+    font-size: 15px;
+    font-style: italic;
+    color: #0A0909;
+    background-color: #CF1717;
+    border-radius: 15px;
+    border: 5px double #0A0909;
+    bottom: -20px;
+  }
+  .boton_1:hover{
+    opacity: 0.6;
+    text-decoration: none;
+    text-align: right;
+   
+  }
+  .boton_2{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-inline-start: 30px;
+    padding-inline-start: 15px;
+    position: relative;
+    font-family: helvetica;
+    font-weight: 250;
+    font-size: 15px;
+    font-style: italic;
+    color: #0A0909;
+    background-color: #CF1717;
+    border-radius: 15px;
+    border: 5px double #0A0909;
+    bottom: -40px;
+  }
+  .boton_2:hover{
+    opacity: 0.6;
+    text-decoration: none;
+    text-align: left;
+   
+  }
+  .boton_3{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-inline-start: 30px;
+    padding-inline-start: 15px;
+    position: relative;
+    font-family: helvetica;
+    font-weight: 250;
+    font-size: 15px;
+    font-style: italic;
+    color: #0A0909;
+    background-color: #CF1717;
+    border-radius: 15px;
+    border: 5px double #0A0909;
+    bottom: -60px;
+  }
+  .boton_3:hover{
+    opacity: 0.6;
+    text-decoration: none;
+    text-align: justify;
+    text-align: start;
+  }
+    */
+  td 
+            {
+                border: 1px solid black; 
+            }
+        
+   
+  }
+  
+  #button {
+    padding: 0;
+    }
+   
+    
+   #button li {
+    display: inline;
+    }
+
+    #button li a {
+      font-family: Arial;
+      font-size: 11px;
+      text-decoration: currentcolo;
+      float: center;
+      padding: 10px;
+      background-color: #CF1717;
+      color: #fff;
+      }
+      #button li a:hover {
+        background-color: #CF1717;
+        margin-top: -2;
+        padding-bottom: 12px;]
+        }
+        
+        .foto1 { 
+          padding: 10px; 
+          margin: 10px; 
+          border: 2px solid black; 
+          float: left; 
+          width: 250px; 
+        }
+        .foto2 { 
+          padding: 10px; 
+          margin: 10px; 
+          border: 2px solid black; 
+          float: right; 
+          width: 250px;
+         }
+        div.vertical-line{
+          width: 1px; 
+          background-color: black; 
+          height: 100%; 
+          float: center; 
+        }
+        div.vertical-line{
+          width: 10px; 
+          height: 100%;
+          float: center; 
+          border: 5px inset;
+
+        }div.vertical-line{
+          width: 5px;
+          background-color: rgb(180, 10, 10);
+          height: 700%;
+          float:center ;
+          border: 2px ridge rgb(180, 10, 10) ;
+          border-radius: 2px;
+        }
+
+        .eye{
+          position:absolute;
+          height:150px;
+          width:200px;
+          top: 40px;
+          left : 40px;
+          z-index: 1;
+        }
+        
+        .heaven
+        {
+          position:absolute;
+          height:250px;
+          width:1400px;
+          z-index: -1;
+          float: center;
+        }
+        .texto {
+
+          backgorund: #000;
+          color: #fff;
+          heigth: 50px;
+          width: 100%;
+          position:absoluta;
+          bottom:0px;
+          float: center;
+          
+          }
+           
+          .Banner{ 
+            width: 700px;
+            height: 300px;
+            border: 3px solid  red ;
+            margin: auto;
+
+            
+          background-size: 100% 100%;
+        
+        
+          animation-name: Banner;
+          animation-duration: 2s;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+          }
+         
+        @keyframes Banner {
+          0%, 30%{
+                 background-image: url(imagenes/fluconazol.jpg);
+                 opacity: 1;
+                }
+              35%, 34%{
+                  opacity: 0.1;
+                }
+        
+            35%, 65%{
+            background-image: url(imagenes/biotina.jpg);
+            opacity: 1;  
+            }
+            66%, 69%{
+              opacity: 0.1;
+             }
+             70%, 100%{
+               opacity: 1;;
+              background-image: url(imagenes/colageno.jpg);
+             }          
+        
+        
+        }
+
+        .Banner1{ 
+          width: 700px;
+          height: 300px;
+          margin: auto;
+
+          
+        background-size: 100% 100%;
+      
+      
+        animation-name: Banner1;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        }
+       
+      @keyframes Banner1 {
+        0%, 30%{
+               background-image: url(imagenes/imagenpagina.png);
+               opacity: 1;
+              }
+            35%, 34%{
+                opacity: 0.1;
+              }
+      
+          35%, 65%{
+          background-image: url(imagenes/peso.jpg);
+          opacity: 1;  
+          }
+          66%, 69%{
+            opacity: 0.1;
+           }
+           70%, 100%{
+             opacity: 1;;
+            background-image: url(imagenes/cipro.jpg);
+           }          
+      
+      
+      }
+
+      .Banner2{ 
+        width: 700px;
+        height: 300px;
+        border: 3px solid  red ;
+        margin: auto;
+
+        
+      background-size: 100% 100%;
+    
+    
+      animation-name: Banner2;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      }
+     
+    @keyframes Banner2 {
+      0%, 30%{
+             background-image: url(imagenes/bebes.jpg);
+             opacity: 1;
+            }
+          35%, 34%{
+              opacity: 0.1;
+            }
+    
+        35%, 65%{
+        background-image: url(imagenes/bebes1.jpg);
+        opacity: 1;  
+        }
+        66%, 69%{
+          opacity: 0.1;
+         }
+         70%, 100%{
+           opacity: 1;;
+          background-image: url(imagenes/bebes2.jpg);
+         }          
+    
+    
+    }
